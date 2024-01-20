@@ -1,0 +1,5 @@
+# Anaconda Prompt
+Check python version: python --version
+Create New Environment: conda create -n <env_name> python==3.12 -y # Example: conda create -n python12 python==3.12 -y
+Activate New Environment: conda activate <env_name> # Example: conda activate python12
+Installing Required Packages: pip install -r <requirements.txt> # list down all required packages in requirement.txt file
